@@ -24,5 +24,5 @@
 ### 通过推断状态转移方程,得到 f[u][w]=∑f[v][w'+dis[u]−(dis[v]+ver[u][v])], 当前到达了点u,已经多走了w的冤枉路,可以由 在点v中,当前点v的冤枉路w'加上到1号点到点u的最短路径减去1号点到点v的最短路径加上从u走到v的一条最短路径,下面图片会给出简单推理
 
 
-![图](\Users\woreinidaye\Pictures\pp.png)
+![图](C:\Users\woreinidaye\Pictures\pp.png)
 ### 假设f[4][4]是我们想要的答案
